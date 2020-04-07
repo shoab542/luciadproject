@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .row{
+    padding-top: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fffefe;
+    text-transform: capitalize;
+    font-weight: 400;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 24px;
+}
+.navbar-dark .navbar-nav .nav-link::before{
+   content: "";
+   background: #008ed6;
+   height: 2px;
+   width: 0;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition-duration: 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover:before{
+    color: #fffefe;
+    width: 45%;
+}
+.navbar-dark .navbar-nav .nav-link::after{
+    content: "";
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover:after{
+    color: #fffefe;
+    width: 45%;
+}
+
+.banner-content{
+    align-self: center; 
+    color: #fff;
+}
+.banner-content p{
+    margin-bottom: 80px;
+}
+.btn-custom{
+    color: #fff;
+    background: #008ed6;
+    text-transform: uppercase;
+    padding: 12px 21px;
+    font-weight: 500;
+    transition-duration: 0.3s
+}
+.btn-custom:hover{
+    color: #fff;
+    border: 1px solid #808081;
+    background-color: #008ed600;
+}
+.btn-outline-custom{
+    color: #fff;
+    background-color: #008ed600;
+    border: 1px solid #808081;
+    text-transform: uppercase;
+    padding: 12px 21px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition-duration: 0.3s;
+}
+.btn-outline-custom:hover{
+    color: #fff;
+    background-color: #008ed6;
+    border: 0px solid #80808100;
+   
+}
+.feature-section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ff000012;
+}
+.header{
+    text-align: center;
+}
+.header h3{
+    font-size: 14px;
+    color: #008ed6;
+    font-weight: 400;
+}
+.header h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+
+.header h2 {
+    font-size: 24px;
+    color: #1a1a1a;
+    text-align: center;
+    margin:30px 0 10px;
+}
+.header span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin: auto;
+   margin-bottom: 50px;
+}
+.header span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .header span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+ h3{
+    color: #0971a9;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+
+}
+.features span {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    display: block;
+    border: 1px solid #008ed61c;
+    margin: auto;
+    line-height: 90px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.features h2{
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.features{
+    text-align: center;
+}
+.banner h1{
+    color: #0971a9;
+    font-size: 48px;
+    margin-bottom: 33px;
+    color: #ffffff;
+
+}
+.about-section{
+    margin-top: 40px;
+}
+.about-section h3{
+    color: #008ed6;
+    font-weight: 400;
+    font-size: 14px;
+}
+.about-section h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    margin: 25px 0;
+
+}
+.about-section span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin-bottom: 50px;
+}
+.about-section span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .about-section span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+.about-section ul{}
+.about-section ul li{}
+.about-section ul li i{
+    padding-right: 10px;
+}
+.about-section ul li p{
+    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+ p{
+    color: #808081;
+    font-size: 18px;
+}
+
+.feedback-section{
+    padding: 70px 0;
+    background-color: #f2f2f2;
+}
+.feedback-section span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin-bottom: 30px;
+}
+.feedback-section span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .feedback-section span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+.feedback-section h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3e9dda;
+    margin-bottom: 25px;
+}
+.feedback-section h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.feedback-section p{
+    color: #b1b1b1;
+}
+
+.pricing-plans{
+     background-image: url(../images/feedback.jpg);
+     background-repeat: no-repeat;
+     min-height: 500px;
+     background-size: cover;
+}
+
+.pricing-plans .heading {
+    text-align: center;
+    padding: 20px 0;
+}
+.pricing-plans .heading h3{
+    color: #167bb4;
+    font-weight:400; 
+}
+.pricing-plans .heading h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+}
+.pricing-plans p{
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 1.5;
+
+}
+.pricing-plans ul{margin-left: 20px;}
+.pricing-plans ul li{}
+.pricing-plans ul li img{
+    width: 100%;
+    border-radius: 50%;
+}
+.pricing-plans ul li span{
+    display: block;
+    margin-left: 10px;
+    color: #f6f6f7;
+}
+.pricing-plans ul li strong{
+    display: block;
+    margin-left: 10px;
+    color: #f6f6f7;
+
+}
+.carousel-item{
+    padding-bottom: 120px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+.download-section{
+    background-color: #1a1a1a;
+    padding: 40px 0;
+}
+.download-section h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+.purchase{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.purchase h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #6bb0e1;
+}
+.purchase h3{
+    font-size: 36px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.price-table{
+    border: 1px solid #008ed62e;
+    margin-top: 60px;
+}
+.price-table  li h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #008ed62e;
+    transition-duration: 0.3s;
+}
+.price-table:hover li h1 {
+  color: #008ed6e6;
+}
+.price-table li h2{
+    font-size: 48px;
+    padding-top: 10px;
+    margin: 0;
+    transition-duration: 0.3s;
+}
+.price-table:hover li h2, .price-table:hover span{
+  background-color: #008ed6e6;
+  color: #fff;
+}
+.price-table li span{
+  font-size: 18px;
+  color:#99999;
+  transition-duration: 0.3s;
+}
+.price-table li h2 sup{
+    font-size: 25px;
+}
+.price-table span{
+    display: block;
+    font-size: 18px;
+}
+.price-table li p{
+  border-top: 1px solid #008ed62e;
+  padding: 30px 10px;
+  margin: 0;
+}
+
+.order-now {
+    font-size: 18px;
+    border: 1px solid #008ed6e6;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+.price-table:hover .order-now{
+   background-color: #008ed6e6;
+   color:#fff;
+}
+.pricing-plans  span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin: auto;
+   margin-bottom: 50px;
+}
+.pricing-plans  span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .pricing-plans span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+.purchase h1  span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin: auto;
+   margin-bottom: 50px;
+}
+.purchase h1 span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .purchase h1 span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+.contact-info h2  span{
+   height: 2px;
+   width: 42px;
+   position: relative;
+   display: block;
+   margin: auto;
+   margin-bottom: 50px;
+}
+.contact-info h2 span::before{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    left: 0;
+}
+ .contact-info h2 span::after{
+    content: "";
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-color: #008ed6;
+    top: 0;
+    right: 0;
+}
+.contact-info h6{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #008ed6;
+}
+
+.contact-info{
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 0;
+  background-color: #ededed;
+}
+.contact-info h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+.contact-info i{
+  font-size: 25px;
+  color: #008ed6;
+}
+.contact-info p{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.form {
+    background-color: #333;
+    padding: 65px 20px;
+    transform: translateY(60px);
+}
+.form .form-group input{
+  padding: 20px 0;
+}
+.from-group .btn-custom{
+    display: inline-block;
+    font-weight: 400;
+    width: 20px;
+    height: 20px;
+   
+}
+.form .form-group input{
+    background: #008ed600;
+}
+textarea.form-control {
+    height: auto;
+    background: #008ed600;
+} 
+.footer{
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 46px 12px;
+}
+.footer ul{
+    font-size: 14px;
+}
+.footer ul li{margin-right: 28px;}
+.footer ul li a{    color: #444348;}
+.footer ul li a:hover{    color: #008ed6; text-decoration: none;}
+.footer p{ color: #444348; font-size: 14px; font-weight: 500; }
